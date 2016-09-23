@@ -29,7 +29,7 @@ var api = new ParseServer({
 var dashboard = new ParseDashboard({
     apps: [
         {
-            serverURL: "https://talkwithus.herokuapp.com/parse",
+            serverURL: "https://talkwm.herokuapp.com/parse",
             appId: process.env.APP_ID,
             masterKey: process.env.MASTER_KEY,
             appName: "talkwithus",
